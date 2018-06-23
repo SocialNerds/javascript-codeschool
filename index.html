@@ -1,31 +1,36 @@
 <html>
 
 <head>
-	<title>Parcel Sandbox</title>
+	<title>CodeSchool</title>
 	<meta charset="UTF-8" />
 </head>
 
 <body>
   <!-- basics -->
-  <div id="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <span></span>
+  <div class="example">
+      <div id="app"></div>
+      <div class="app"></div>
+      <div class="app"></div>
+      <span></span>
+  </div>
 
   <!-- Events -->
-  <button id="myButton">My button</button>
-  <p id="text"></p>
-  <p id="body"></p>
+  <div class="example">
+      <button id="myButton">My button</button>
+      <p id="text"></p>
+      <p id="body"></p>
+  </div>
 
   <!-- Closures -->
-  <span class="red element"></span>
-  <span class="blue element"></span>
-  <span class="purple element"></span>
-
+  <div class="example">
+      <span class="red element"></span>
+      <span class="blue element"></span>
+      <span class="purple element"></span>
+  </div>
 
 	<script src="lib/basics.js"></script>
 	<!-- <script src="lib/events.js"></script> -->
-	<!-- <script src="lib/closures.js"></script> -->
+	<script src="lib/closures.js"></script>
   <!-- <script src="lib/context.js"></script> -->
   	<!-- <script src="lib/prototypes.js"></script> -->
   <!-- <script src="lib/promises.js"></script> -->
@@ -40,7 +45,11 @@
       background-color: royalblue;
     }
     .element {
-      padding: 20px;
+      padding: 30px;
+      margin: 10px;
+    }
+    .example {
+      margin-bottom: 40px;
     }
   </style>
 </body>
